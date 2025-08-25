@@ -1,0 +1,20 @@
+# ========== 基础科学计算 ==========
+numpy==1.26.4         # Python 科学计算的核心库，矩阵运算、数值处理
+pandas==2.2.2         # 数据处理与分析，表格数据处理必备
+matplotlib==3.9.0     # 可视化基础库，绘制折线图、柱状图、散点图
+seaborn==0.13.2       # 基于 matplotlib 的统计绘图库，更美观
+scikit-learn==1.5.0   # 经典机器学习库，包含分类/回归/聚类/预处理等
+
+# ========== 深度学习框架 ==========
+torch==2.3.0          # PyTorch 深度学习框架，核心库
+torchvision==0.18.0   # PyTorch 计算机视觉扩展（图像数据集/预训练模型）
+torchaudio==2.3.0     # PyTorch 音频扩展（语音处理）
+
+# ========== Notebook & 开发工具 ==========
+jupyter==1.0.0        # Jupyter Notebook 环境，适合交互式学习和实验
+notebook==7.2.1       # Jupyter Notebook 主程序
+ipykernel==6.29.4     # 让 Jupyter Notebook 能运行 Python 内核
+
+# ========== 其他常用工具 ==========
+tqdm==4.66.4          # 进度条工具，长时间训练/循环时用来显示进度
+requests==2.32.3      # 发送 HTTP 请求，爬取数据/调用 API 时使用
